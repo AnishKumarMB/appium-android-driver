@@ -19,7 +19,10 @@ env:
   - _FORCE_LOGS=1 TEST=unit
   - _FORCE_LOGS=1 TEST=functional
   - _FORCE_LOGS=1 TEST=functional/commands
+  - _FORCE_LOGS=1 TEST=functional/commands/device
+  - _FORCE_LOGS=1 TEST=functional/commands/element
   - _FORCE_LOGS=1 TEST=functional/commands/find
+  - _FORCE_LOGS=1 TEST=functional/commands/keyboard
   - _FORCE_LOGS=1 TEST=functional/commands/localization
   - _FORCE_LOGS=1 TEST=functional/commands/touch
 before_script:

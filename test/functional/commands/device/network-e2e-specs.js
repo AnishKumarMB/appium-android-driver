@@ -5,8 +5,8 @@
 import chai from 'chai';
 import chaiAsPromised from 'chai-as-promised';
 import _ from 'lodash';
-import AndroidDriver from '../../..';
-import DEFAULT_CAPS from '../desired';
+import AndroidDriver from '../../../..';
+import DEFAULT_CAPS from '../../desired';
 
 
 chai.should();

@@ -1,11 +1,11 @@
 import chai from 'chai';
 import chaiAsPromised from 'chai-as-promised';
-import AndroidDriver from '../../..';
+import AndroidDriver from '../../../..';
 import B from 'bluebird';
 import _ from 'lodash';
 import ADB from 'appium-adb';
 import { retry } from 'asyncbox';
-import DEFAULT_CAPS from '../desired';
+import DEFAULT_CAPS from '../../desired';
 
 
 chai.should();
